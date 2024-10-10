@@ -1,0 +1,16 @@
+{
+  "id": "guildmanager",
+  "title": "Guild Manager",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "esmodules": ["scripts/module.mjs"],
+  "flags": {
+    "hotReload": {
+        "extensions": ["json", "css", "hbs"],
+        "paths": ["styles/*.css", "lang/en.json"]
+    }
+  }
+}

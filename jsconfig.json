@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "module": "ES6",
+        "target": "ES6"
+    },
+    "exclude": ["node_modules", "**/node_modules/*"],
+    "include": ["scripts/module.mjs", "system/dnd5e/**/*.mjs", "foundry/**/*.js"],
+    "typeAcquisition": {
+        "include": ["jquery"]
+    }
+}
